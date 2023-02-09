@@ -5,7 +5,7 @@ The **U**niversal **V**ariability **L**anguage is a community effort towards a u
 
 # Language Design
 
-<img align="right" src="pics/small_sandwich.png" alt="Small Sandwich">
+<img align="right" src="pics/small_sandwich.png" alt="Small Sandwich" width="300">
 <pre>
 <code>
 <b>features</b>

@@ -1,9 +1,17 @@
 ### Community-Driven Language for Variability Models
 
-The **U**niversal **V**ariability **L**anguage is a community effort towards a unified language for variability models. UVL is a direct result of the efforts within the <a href="https://modevar.github.io/">MODEVAR</a> initiative.
+The **U**niversal **V**ariability **L**anguage is a community effort towards a unified language for variability models. UVL is a direct result of the efforts within the <a href="https://modevar.github.io/">MODEVAR</a> initiative. *Do you have any questions on UVL?* *Do you want to contribute?* *We gladly receive your message at [Contact](mailto:chico.sundermann@uni-ulm.de).*
 
 
 # Language Design
+
+UVL specifies variability models with a tree-like structure to represent the hierarchical structure of variability models. Below you can see a simple example of a variability model in UVL. The tree structure is visualized on the right side in the [FeatureIDE](https://github.com/FeatureIDE/FeatureIDE) representation. The language core of UVL comes with several concepts to specify constraints:
+
+* *Mandatory*: The feature needs to be selected if its parent is selected
+* *Optional*: The feature can be selected if its parent is selected
+* *Or*: At least one of the children need to be selected if its parent is selected
+* *Alternative*: Exactly one of the children needs to be selected
+* *Cross-tree constraints*: Arbitrary propositional constraints over the features 
 
 <img align="right" src="pics/small_sandwich.png" alt="Small Sandwich" width="300">
 <pre>
@@ -18,6 +26,8 @@ The **U**niversal **V**ariability **L**anguage is a community effort towards a u
                     Ketchup
                     Mustard
             Cheese
+constraints
+    Ketchup => Cheese
 </code>
 </pre>
 
@@ -25,9 +35,9 @@ The **U**niversal **V**ariability **L**anguage is a community effort towards a u
 
 ### Tool Support for UVL
 * Java-based parser for UVL: <a href="https://github.com/Universal-Variability-Language/uvl-parser2.0">UVL-Parser2.0</a>
-* Python-based parser for UVL: [UVL Parser](https://github.com/flamapy/uvlparser) 
+* Python-based parser for UVL (WIP): [UVL Parser](https://github.com/flamapy/uvlparser) 
 * Rust-based Language Server Protocol for integrating UVL in your favorite IDE:  <a href="https://github.com/Universal-Variability-Language/uvl-lsp">UVLS</a> 
-* Visual Studio Code <a href="https://marketplace.visualstudio.com/items?itemName=caradhras.uvls-code">extension </a> based on **UVLs**
+* Visual Studio Code <a href="https://marketplace.visualstudio.com/items?itemName=caradhras.uvls-code">extension </a> based on **UVLS**
 
 ### Tools Integrating UVL
 

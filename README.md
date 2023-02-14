@@ -26,8 +26,48 @@ UVL specifies variability models with a tree-like structure to represent the hie
                     Ketchup
                     Mustard
             Cheese
-constraints
+<b>constraints</b>
     Ketchup => Cheese
+</code>
+</pre>
+
+
+## Language Levels
+
+In addition to the language core described above, UVL provides several extensions providing additional language constructs. The following language levels are supported:
+
+* SAT Level
+    * SAT Core: Level without any extension as seen above
+    * Group Cardinality: Specify selecting [n..m] (between n and m) children parent-children relationships D
+* SMT Level
+    * SMT Core: Supports constraints over feature attributes with standard arithmetic operations (+,-,*,/,=,!=,>,<)
+    * Attribute aggregates: Simplifies specification of attribute constraints by allowing sum() and avg() aggregates
+    * Feature Cardinality: A single feature can be selected between n and m times 
+
+The following feature model in UVL syntax enriches the previous version with new language concepts. Further, feature attributes, such as the number of calories, are attached to features.
+
+<pre>
+<code>
+<b>features</b>
+    Sandwich
+        <b>mandatory</b>
+            Bread {Calories 100, Sugar 20}
+        <b>optional</b>
+            Sauce
+                <b>or</b>
+                    Ketchup {Calories 40, Sugar 35}
+                    Mustard {Calories 25, Sugar 5}
+            Cheese
+                <b>[0..2]</b> <i>// Group cardinality</i>
+                    Cheddar {Calories 60}
+                    Gouda {Calories 50}
+                    Goat {Calories 35}
+            Pickle <b>cardinality [1..3]</b> <i>// Feature cardinality</i>
+                    
+<b>constraints</b>
+    Ketchup => Cheese
+    Bread.Sugar + Ketchup.Sugar + Mustard.Sugar < 60 <i>// Attribute Constraints</i>
+    sum(Calories) < 160 <i>// Aggregate</i>
 </code>
 </pre>
 

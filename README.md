@@ -1,6 +1,6 @@
 ### Community-Driven Language for Variability Models
 
-The **U**niversal **V**ariability **L**anguage is a community effort towards a unified language for variability models. UVL is a direct result of the efforts within the <a href="https://modevar.github.io/">MODEVAR</a> initiative. *Do you have any questions on UVL?* *Do you want to contribute?* *We gladly receive your message at [Contact](mailto:chico.sundermann@uni-ulm.de).*
+The **U**niversal **V**ariability **L**anguage is a community effort towards a unified language for variability models. UVL is a direct result of the efforts within the <a href="https://modevar.github.io/">MODEVAR</a> initiative. *Do you have any questions on UVL?* *Do you want to contribute?* *We gladly receive your message [(Contact)](mailto:chico.sundermann@uni-ulm.de).*
 
 
 # Language Design
@@ -48,6 +48,12 @@ The following feature model in UVL syntax enriches the previous version with new
 
 <pre>
 <code>
+
+<b>include
+    SAT-level.group-cardinality
+    SMT-level.aggregate-function
+    SMT-level.feature-cardinality</b>
+
 <b>features</b>
     Sandwich
         <b>mandatory</b>
@@ -66,12 +72,13 @@ The following feature model in UVL syntax enriches the previous version with new
                     
 <b>constraints</b>
     Ketchup => Cheese
-    Bread.Sugar + Ketchup.Sugar + Mustard.Sugar < 60 <i>// Attribute Constraints</i>
-    sum(Calories) < 160 <i>// Aggregate</i>
+    Bread.Sugar + Ketchup.Sugar + Mustard.Sugar < 60 <i>// Attribute constraints</i>
+    sum(Calories) < 160 <i>// Attribute aggregate</i>
 </code>
 </pre>
 
 # Software
+Any tool support for UVL or tool integrating UVL missing? We are happy to embed your suggestion. [Contact us!](mailto:chico.sundermann@uni-ulm.de)
 
 ### Tool Support for UVL
 * Java-based parser for UVL: <a href="https://github.com/Universal-Variability-Language/uvl-parser2.0">UVL-Parser2.0</a>
@@ -87,7 +94,7 @@ The following feature model in UVL syntax enriches the previous version with new
 
 
 # Publications
-Here, we only present a small selection of papers. Any interesting work on UVL missing? We are happy to embed your suggestion. [Contact](mailto:chico.sundermann@uni-ulm.de)
+Here, we only present a small selection of papers. Any interesting work on UVL missing? We are happy to embed your suggestion. [Contact us!](mailto:chico.sundermann@uni-ulm.de)
 
 ### Work on UVL
 

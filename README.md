@@ -78,7 +78,7 @@ The following feature model in UVL syntax enriches the previous version with new
 </pre>
 
 # Software
-Any tool support for UVL or tool integrating UVL missing? We are happy to embed your suggestion. [Contact us!](mailto:chico.sundermann@uni-ulm.de)
+Any tool support for UVL or tool integrating UVL missing? We are happy to embed your [suggestion](https://github.com/Universal-Variability-Language/Universal-Variability-Language.github.io/issues).
 
 ### Tool Support for UVL
 * Java-based parser for UVL: <a href="https://github.com/Universal-Variability-Language/uvl-parser2.0">UVL-Parser2.0</a>
@@ -94,7 +94,7 @@ Any tool support for UVL or tool integrating UVL missing? We are happy to embed 
 
 
 # Publications
-Here, we only present a small selection of papers. Any interesting work on UVL missing? We are happy to embed your suggestion. [Contact us!](mailto:chico.sundermann@uni-ulm.de)
+Here, we only present a small selection of papers. Any interesting work on UVL missing? We are happy to embed your [suggestion](https://github.com/Universal-Variability-Language/Universal-Variability-Language.github.io/issues).
 
 ### Work on UVL
 

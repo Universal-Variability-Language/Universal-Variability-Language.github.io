@@ -31,6 +31,8 @@ UVL specifies variability models with a tree-like structure to represent the hie
 </code>
 </pre>
 
+# Examples
+A set of example UVL models is available [here](https://github.com/Universal-Variability-Language/uvl-models). We are happy to merge your examples if you want to [contribute](https://github.com/Universal-Variability-Language/uvl-models/pulls).
 
 ## Language Levels
 

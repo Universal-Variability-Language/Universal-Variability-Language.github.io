@@ -77,6 +77,9 @@ The following feature model in UVL syntax enriches the previous version with new
 </code>
 </pre>
 
+## Examples
+A set of further example UVL models is available [here](https://github.com/Universal-Variability-Language/uvl-models). We are happy to merge your examples if you want to [contribute](https://github.com/Universal-Variability-Language/uvl-models/pulls).
+
 ## Grammar
 Below you can find a simplified grammar for UVL in [ANTLR](https://www.antlr.org/) notation. This simplified version is supposed to provide a quick overview on the structure of an UVL model but leaves out many details. A full version of this grammar can be found [here](https://github.com/Universal-Variability-Language/uvl-parser2.0/blob/main/src/main/antlr4/de/vill/UVL.g4).
 

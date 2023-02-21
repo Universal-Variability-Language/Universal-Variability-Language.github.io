@@ -77,6 +77,62 @@ The following feature model in UVL syntax enriches the previous version with new
 </code>
 </pre>
 
+## Grammar
+Below you can find a simplified grammar for UVL in [ANTLR](https://www.antlr.org/) notation. This simplified version is supposed to provide a quick overview on the structure of an UVL model but leaves out many details. A full version of this grammar can be found [here](https://github.com/Universal-Variability-Language/uvl-parser2.0/blob/main/src/main/antlr4/de/vill/UVL.g4).
+
+<pre>
+<code>
+featureModel: namespace? NEWLINE? includes? NEWLINE? imports? NEWLINE? features? NEWLINE? constraints? EOF;
+
+includes: 'include' NEWLINE INDENT includeLine* DEDENT;
+includeLine: LANGUAGELEVEL NEWLINE;
+
+namespace: 'namespace' reference;
+
+imports: 'imports' NEWLINE INDENT importLine* DEDENT;
+importLine: ns=reference ('as' alias=reference)? NEWLINE;
+
+features: 'features' NEWLINE INDENT feature DEDENT;
+
+group
+    : ORGROUP groupSpec          # OrGroup
+    | ALTERNATIVE groupSpec # AlternativeGroup
+    | OPTIONAL groupSpec    # OptionalGroup
+    | MANDATORY groupSpec   # MandatoryGroup
+    | CARDINALITY groupSpec    # CardinalityGroup
+    ;
+
+groupSpec: NEWLINE INDENT feature+ DEDENT;
+
+feature: reference featureCardinality? attributes? NEWLINE (INDENT group+ DEDENT)?;
+
+featureCardinality: 'cardinality' CARDINALITY;
+
+attributes: OPEN_BRACE (attribute (COMMA attribute)*)? CLOSE_BRACE;
+
+attribute
+    : valueAttribute
+    | constraintAttribute;
+
+valueAttribute: key value?;
+
+key: id;
+value: BOOLEAN | FLOAT | INTEGER | string | attributes | vector;
+vector: OPEN_BRACK (value (COMMA value)*)? CLOSE_BRACK;
+
+constraint
+    : equation                              # EquationConstraint
+    | reference                             # LiteralConstraint
+    | OPEN_PAREN constraint CLOSE_PAREN      # ParenthesisConstraint
+    | NOT constraint                        # NotConstraint
+    | constraint AND constraint             # AndConstraint
+    | constraint OR constraint              # OrConstraint
+    | constraint IMPLICATION constraint     # ImplicationConstraint
+    | constraint EQUIVALENCE constraint     # EquivalenceConstraint
+	;
+</code>
+</pre>
+
 # Software
 Any tool support for UVL or tool integrating UVL missing? We are happy to embed your [suggestion](https://github.com/Universal-Variability-Language/Universal-Variability-Language.github.io/issues).
 
@@ -112,4 +168,26 @@ Here, we only present a small selection of papers. Any interesting work on UVL m
 * Thorsten Berger and Philippe Collet. 2019. Usage Scenarios for a Common Feature Modeling Language. MODEVAR@SPLC '19. <https://doi.org/10.1145/3307630.3342403>
 * Thomas Thüm, Christoph Seidl, and Ina Schaefer. 2019. On Language Levels for Feature Modeling Notations. MODEVAR@SPLC '19 <https://doi.org/10.1145/3307630.3342404>
 
-  
+
+# Contributors
+Think you should be on this list as a past and/or future contributor? Don't hesitate to [contact](mailto:chico.sundermann@uni-ulm.de) us.
+
+### Core Team
+
+* University of Seville
+    * [David Benavides](http://www.lsi.us.es/~dbc/en/)
+    * [José A. Galindo](http://personales.us.es/jagalindo/)
+* Johannes Kepler University Linz
+    * [Rick Rabiser](https://rickrabiser.github.io/rick/)
+    * [Kevin Feichtinger](https://www.jku.at/lit-cyber-physical-systems-lab/ueber-uns/team/di-kevin-feichtinger-bsc/)
+* University of Ulm
+    * [Thomas Thüm](https://www.uni-ulm.de/in/sp/team/thuem/)
+    * [Chico Sundermann](https://www.uni-ulm.de/in/sp/team/chico-sundermann/)
+
+### Further and Former Contributors
+* Dominik Engelhardt (TU Braunschweig)
+* Dario Romano (JKU Linz)
+* Stefan Vill (University of Ulm)
+* Jacob Loth (University of Ulm)
+* Prankur Agarwal (JKU Linz)
+

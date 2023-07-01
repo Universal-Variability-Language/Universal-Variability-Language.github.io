@@ -36,13 +36,17 @@ UVL specifies variability models with a tree-like structure to represent the hie
 
 In addition to the language core described above, UVL provides several extensions providing additional language constructs. The following language levels are supported:
 
-* SAT Level
-    * SAT Core: Level without any extension as seen above
+* Boolean Level
+    * Boolean Core: Level without any extension as seen above
     * Group Cardinality: Specify selecting [n..m] (between n and m) children parent-children relationships D
-* SMT Level
-    * SMT Core: Supports constraints over feature attributes with standard arithmetic operations (+,-,*,/,=,!=,>,<)
+* Arithmetic Level
+    * Arithmetic Core: Supports constraints over feature attributes with standard arithmetic operations (+,-,*,/,=,!=,>,<)
     * Attribute aggregates: Simplifies specification of attribute constraints by allowing sum() and avg() aggregates
-    * Feature Cardinality: A single feature can be selected between n and m times 
+    * Feature Cardinality: A single feature can be selected between n and m times
+* Type Level
+    * Type Core: Supports String Features 
+    * Type Numeric-Constraints: Allows numeric operations like floor(..) and ceil(..) within constraints
+    * Type String-Constraints: Allows string operations like len(..) and comparison (of String Features) within constraints
 
 The following feature model in UVL syntax enriches the previous version with new language concepts. Further, feature attributes, such as the number of calories, are attached to features.
 
@@ -50,9 +54,10 @@ The following feature model in UVL syntax enriches the previous version with new
 <code>
 
 <b>include
-    SAT-level.group-cardinality
-    SMT-level.aggregate-function
-    SMT-level.feature-cardinality</b>
+    Boolean.group-cardinality
+    Arithmetic.aggregate-function
+    Arithmetic.feature-cardinality
+    Type</b>
 
 <b>features</b>
     Sandwich

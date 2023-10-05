@@ -82,6 +82,9 @@ The following feature model in UVL syntax enriches the previous version with new
 </code>
 </pre>
 
+## Import Mechanism
+UVL supports referencing submodels for composing larger UVL models. See [here](https://universal-variability-language.github.io/language/submodels) for more details
+
 ## Examples
 A set of further example UVL models is available [here](https://github.com/Universal-Variability-Language/uvl-models). We are happy to merge your examples if you want to [contribute](https://github.com/Universal-Variability-Language/uvl-models/pulls).
 

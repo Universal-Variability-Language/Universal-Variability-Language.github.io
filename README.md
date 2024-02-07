@@ -1,6 +1,11 @@
 ### Community-Driven Language for Variability Models
 
-The **U**niversal **V**ariability **L**anguage is a community effort towards a unified language for variability models. UVL is a direct result of the efforts within the <a href="https://modevar.github.io/">MODEVAR</a> initiative. *Do you have any questions on UVL?* *Do you want to contribute?* *We gladly receive your message [(Contact)](mailto:chico.sundermann@uni-ulm.de).*
+The **U**niversal **V**ariability **L**anguage is a community effort towards a unified language for variability models. UVL is a direct result of the efforts within the <a href="https://modevar.github.io/">MODEVAR</a> initiative.
+
+*Want to tryout UVL yourself? Check our <a href="https://uvl.uni-ulm.de/">Playground</a>*
+
+*Do you have any questions on UVL?* *Do you want to contribute?* *We gladly receive your message [(Contact)](mailto:chico.sundermann@uni-ulm.de).*
+
 
 
 # Language Design
@@ -148,9 +153,11 @@ constraint
 Any tool support for UVL or tool integrating UVL missing? We are happy to embed your [suggestion](https://github.com/Universal-Variability-Language/Universal-Variability-Language.github.io/issues).
 
 ### Tool Support for UVL
-* Java-based parser for UVL: <a href="https://github.com/Universal-Variability-Language/uvl-parser2.0">UVL-Parser2.0</a>
-* Python-based parser for UVL (WIP): [UVL Parser](https://github.com/flamapy/uvlparser) 
-* Rust-based Language Server Protocol for integrating UVL in your favorite IDE:  <a href="https://github.com/Universal-Variability-Language/uvl-lsp">UVLS</a> 
+* Parser
+  * ANTLR Base Parser (currently support for Python and Java): <a href="https://github.com/Universal-Variability-Language/uvl-parser">UVL Parser</a>
+  * Java realization of ANTLR parser with feature model representation: <a href=" https://github.com/Universal-Variability-Language/java-fm-metamodel">Java Meta Model</a>   
+* Rust-based Language Server Protocol for integrating UVL in your favorite IDE:  <a href="https://github.com/Universal-Variability-Language/uvl-lsp">UVLS</a>
+* Web-based playground based on UVLS <a href="https://uvl.uni-ulm.de/">UVL Playground</a> 
 * Visual Studio Code <a href="https://marketplace.visualstudio.com/items?itemName=caradhras.uvls-code">extension </a> based on **UVLS**
 
 ### Tools Integrating UVL
@@ -171,12 +178,12 @@ Here, we only present a small selection of papers. Any interesting work on UVL m
 * Kevin Feichtinger, Johann Stöbich, Dario Romano, and Rick Rabiser. 2021. TRAVART: An Approach for Transforming Variability Models. VaMoS '21. <https://doi.org/10.1145/3442391.3442400>
 * Dario Romano, Kevin Feichtinger, Danilo Beuche, Uwe Ryssel, and Rick Rabiser. 2022. Bridging the gap between academia and industry: transforming the universal variability language to pure::variants and back. MODEVAR@SPLC '22. <https://doi.org/10.1145/3503229.3547056>
 * José A. Galindo and David Benavides. 2020. A Python framework for the automated analysis of feature models: A first step to integrate community efforts. MODEVAR@SPLC '20. https://doi.org/10.1145/3382026.3425773José A. Galindo, Jose-Miguel Horcas, Alexander Felferning, David Fernandez-Amoros, and David Benavides. 2023. FLAMA: A collaborative effort to build a new framework for the automated analysis of feature models. SPLC' 23 - Tool Track. https://doi.org/10.1145/3579028.3609008
-* Chico Sundermann, Stefan Vill, Thomas Thüm, Kevin Feichtinger, Prankur Agarwal, Rick Rabiser, José A. Galindo, and David Benavides. 2023. UVLParser: Extending UVL with Language Levels and Conversion Strategies. SPLC'23 - Tool Track. https://doi.org/10.1145/3579028.3609013  
 * Jose M. Horcas, Jose A. Galindo, Mónica Pinto, Lidia Fuentes, and David Benavides. 2022. FM fact label: a configurable and interactive visualization of feature model characterizations. SPLC '22. <https://doi.org/10.1145/3503229.3547025>
 * David Romero, José Á. Galindo, Jose-Miguel Horcas, and David Benavides. 2021. A first prototype of a new repository for feature model exchange and knowledge sharing. SPLC '21. <https://doi.org/10.1145/3461002.3473949>
 
 
 ### Work Relevant for the Design of UVL
+This is only a small selection of work that was vital for the design of UVL.
 * Maurice H. ter Beek, Klaus Schmid, and Holger Eichelberger. 2019. Textual Variability Modeling Languages: An Overview and Considerations. MODEVAR@SPLC '19. <https://doi.org/10.1145/3307630.3342398>
 * Thorsten Berger and Philippe Collet. 2019. Usage Scenarios for a Common Feature Modeling Language. MODEVAR@SPLC '19. <https://doi.org/10.1145/3307630.3342403>
 * Thomas Thüm, Christoph Seidl, and Ina Schaefer. 2019. On Language Levels for Feature Modeling Notations. MODEVAR@SPLC '19 <https://doi.org/10.1145/3307630.3342404>
@@ -203,4 +210,5 @@ Think you should be on this list as a past and/or future contributor? Don't hesi
 * Stefan Vill (University of Ulm)
 * Jacob Loth (University of Ulm)
 * Prankur Agarwal (JKU Linz)
+* David Romero-Organvidez (University of Seville)
 

@@ -173,13 +173,17 @@ Here, we only present a small selection of papers. Any interesting work on UVL m
 ### Work on UVL
 
 * Chico Sundermann, Kevin Feichtinger, Dominik Engelhardt, Rick Rabiser, and Thomas Thüm. 2021. Yet another textual variability language? a community effort towards a unified language. SPLC '21. <https://doi.org/10.1145/3461001.3471145>
-* Chico Sundermann, Stefan Vill, Thomas Thüm, Kevin Feichtinger, Prankur Agarwal, Rick Rabiser, José A. Galindo, and David Benavides. 2023. UVLParser: Extending UVL with Language Levels and Conversion Strategies. SPLC '23 - Tool Track. https://doi.org/10.1145/3579028.3609013
+* Chico Sundermann, Stefan Vill, Thomas Thüm, Kevin Feichtinger, Prankur Agarwal, Rick Rabiser, José A. Galindo, and David Benavides. 2023. UVLParser: Extending UVL with Language Levels and Conversion Strategies. SPLC '23 - Tool Track. <https://doi.org/10.1145/3579028.3609013>
 * Chico Sundermann, Tobias Heß, Dominik Engelhardt, Rahel Arens, Johannes Herschel, Kevin Jedelhauser, Benedikt Jutz, Sebastian Krieter, and Ina Schaefer. 2021. Integration of UVL in FeatureIDE. MODEVAR@SPLC '21. <https://doi.org/10.1145/3461002.3473940>
+* Jacob Loth, Chico Sundermann, Tobias Schrull, Thilo Brugger, Felix Rieg, Thomas Thüm. 2023. UVLS: A Language Server Protocol For UVL. SPLC '23 - Tool Track. <https://doi.org/10.1145/3579028.3609014>
 * Kevin Feichtinger, Johann Stöbich, Dario Romano, and Rick Rabiser. 2021. TRAVART: An Approach for Transforming Variability Models. VaMoS '21. <https://doi.org/10.1145/3442391.3442400>
 * Dario Romano, Kevin Feichtinger, Danilo Beuche, Uwe Ryssel, and Rick Rabiser. 2022. Bridging the gap between academia and industry: transforming the universal variability language to pure::variants and back. MODEVAR@SPLC '22. <https://doi.org/10.1145/3503229.3547056>
-* José A. Galindo and David Benavides. 2020. A Python framework for the automated analysis of feature models: A first step to integrate community efforts. MODEVAR@SPLC '20. https://doi.org/10.1145/3382026.3425773José A. Galindo, Jose-Miguel Horcas, Alexander Felferning, David Fernandez-Amoros, and David Benavides. 2023. FLAMA: A collaborative effort to build a new framework for the automated analysis of feature models. SPLC' 23 - Tool Track. https://doi.org/10.1145/3579028.3609008
+* Prankur Agarwal, Kevin Feichtinger, Klaus Schmid, Holger Eichelberger, and Rick Rabiser. 2024. On the Challenges of Transforming UVL to IVML. MODEVAR@VaMoS'24. <https://doi.org/10.48550/arXiv.2403.01952>
+* José A. Galindo and David Benavides. 2020. A Python framework for the automated analysis of feature models: A first step to integrate community efforts. MODEVAR@SPLC '20. <https://doi.org/10.1145/3382026.3425773>
+* José A. Galindo, Jose-Miguel Horcas, Alexander Felferning, David Fernandez-Amoros, and David Benavides. 2023. FLAMA: A collaborative effort to build a new framework for the automated analysis of feature models. SPLC' 23 - Tool Track. <https://doi.org/10.1145/3579028.3609008>
 * Jose M. Horcas, Jose A. Galindo, Mónica Pinto, Lidia Fuentes, and David Benavides. 2022. FM fact label: a configurable and interactive visualization of feature model characterizations. SPLC '22. <https://doi.org/10.1145/3503229.3547025>
 * David Romero, José Á. Galindo, Jose-Miguel Horcas, and David Benavides. 2021. A first prototype of a new repository for feature model exchange and knowledge sharing. SPLC '21. <https://doi.org/10.1145/3461002.3473949>
+* David Romero, José A. Galindo, Chico Sundermann, Jose-Miguel Horcas, and David Benavides. 2024. UVLHub: A feature model data repository using UVL and open science principles. JSS <https://doi.org/10.1016/j.jss.2024.112150Y>
 
 
 ### Work Relevant for the Design of UVL
@@ -199,7 +203,8 @@ Think you should be on this list as a past and/or future contributor? Don't hesi
     * [José A. Galindo](http://personales.us.es/jagalindo/)
 * Johannes Kepler University Linz
     * [Rick Rabiser](https://rickrabiser.github.io/rick/)
-    * [Kevin Feichtinger](https://www.jku.at/lit-cyber-physical-systems-lab/ueber-uns/team/di-kevin-feichtinger-bsc/)
+* Karlsruhe Institute of Technology
+    * [Kevin Feichtinger](https://dsis.kastel.kit.edu/staff_kevin_feichtinger.php)
 * University of Ulm
     * [Thomas Thüm](https://www.uni-ulm.de/in/sp/team/thuem/)
     * [Chico Sundermann](https://www.uni-ulm.de/in/sp/team/chico-sundermann/)

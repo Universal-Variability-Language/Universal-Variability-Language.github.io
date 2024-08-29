@@ -205,8 +205,9 @@ Think you should be on this list as a past and/or future contributor? Don't hesi
     * [Rick Rabiser](https://rickrabiser.github.io/rick/)
 * Karlsruhe Institute of Technology
     * [Kevin Feichtinger](https://dsis.kastel.kit.edu/staff_kevin_feichtinger.php)
+* University of Paderborn
+    * [Thomas Thüm](https://www.uni-paderborn.de/person/102807)
 * University of Ulm
-    * [Thomas Thüm](https://www.uni-ulm.de/in/sp/team/thuem/)
     * [Chico Sundermann](https://www.uni-ulm.de/in/sp/team/chico-sundermann/)
 
 ### Further and Former Contributors

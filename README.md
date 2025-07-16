@@ -2,9 +2,9 @@
 
 The **U**niversal **V**ariability **L**anguage is a community effort towards a unified language for variability models. UVL is a direct result of the efforts within the <a href="https://modevar.github.io/">MODEVAR</a> initiative.
 
-*Want to tryout UVL yourself? Check our <a href="https://uvl.uni-ulm.de/">Playground</a>*
+*Want to quickly tryout UVL yourself? Check the web-based <a href="https://ide.flamapy.org/">flamapy.IDE</a>*
 
-*Do you have any questions on UVL?* *Do you want to contribute?* *We gladly receive your message [(Contact)](mailto:chico.sundermann@uni-ulm.de).*
+*Do you have any questions on UVL?* *Do you want to contribute?* *We gladly receive your message [(Contact)](mailto:chico.sundermann@tu-braunschweig.de).*
 
 
 

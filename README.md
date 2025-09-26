@@ -224,8 +224,8 @@ Think you should be on this list as a past and/or future contributor? Don't hesi
 * Karlsruhe Institute of Technology
     * [Kevin Feichtinger](https://dsis.kastel.kit.edu/staff_kevin_feichtinger.php)
 * University of Siegen
- 	* [Malte Lochau](https://mbe.informatik.uni-siegen.de/team/malte-lochau/)
-  	* [Mathis Weiß](https://mbe.informatik.uni-siegen.de/team/mathis-weiss/)
+    * [Malte Lochau](https://mbe.informatik.uni-siegen.de/team/malte-lochau/)
+    * [Mathis Weiß](https://mbe.informatik.uni-siegen.de/team/mathis-weiss/)
 * University of Málaga
     * [José Miguel Horcas](https://sites.google.com/view/josemiguelhorcas?authuser=0)
 

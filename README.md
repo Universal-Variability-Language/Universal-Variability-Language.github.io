@@ -221,8 +221,11 @@ Think you should be on this list as a past and/or future contributor? Don't hesi
 * TU Braunschweig
     * [Thomas Thüm](https://www.uni-paderborn.de/person/102807)
     * [Chico Sundermann](https://www.uni-ulm.de/in/sp/team/chico-sundermann/)
- * Karlsruhe Institute of Technology
+* Karlsruhe Institute of Technology
     * [Kevin Feichtinger](https://dsis.kastel.kit.edu/staff_kevin_feichtinger.php)
+* University of Siegen
+ 	* [Malte Lochau](https://mbe.informatik.uni-siegen.de/team/malte-lochau/)
+  	* [Mathis Weiß](https://mbe.informatik.uni-siegen.de/team/mathis-weiss/)
 * University of Málaga
     * [José Miguel Horcas](https://sites.google.com/view/josemiguelhorcas?authuser=0)
 

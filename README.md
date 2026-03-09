@@ -174,7 +174,7 @@ Here, we only present a small selection of papers. Any interesting work on UVL m
 
 ### Work on UVL's Language Design
 
-* David Benavides, Chico Sundermann, Kevin Feichtinger, José A. Galindo, Rick Rabiser, Thomas Thüm. 2025. UVL: Feature modelling with the Universal Variability Language. JSS. https://doi.org/10.1016/j.jss.2024.112326
+* David Benavides, Chico Sundermann, Kevin Feichtinger, José A. Galindo, Rick Rabiser, Thomas Thüm. 2025. UVL: Feature modelling with the Universal Variability Language. JSS. <https://doi.org/10.1016/j.jss.2024.112326> -- **Received the Journal of Systems and Software Best Paper Award in the Regular Track 2025**
 * Chico Sundermann, Kevin Feichtinger, Dominik Engelhardt, Rick Rabiser, and Thomas Thüm. 2021. Yet another textual variability language? a community effort towards a unified language. SPLC '21. <https://doi.org/10.1145/3461001.3471145>
 * Chico Sundermann, Stefan Vill, Thomas Thüm, Kevin Feichtinger, Prankur Agarwal, Rick Rabiser, José A. Galindo, and David Benavides. 2023. UVLParser: Extending UVL with Language Levels and Conversion Strategies. SPLC '23 - Tool Track. <https://doi.org/10.1145/3579028.3609013>
 

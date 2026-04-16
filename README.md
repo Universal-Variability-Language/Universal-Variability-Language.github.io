@@ -6,7 +6,7 @@ The **U**niversal **V**ariability **L**anguage is a community effort towards a u
 
 *Do you have any questions on UVL?* *Do you want to contribute?* *We gladly receive your message [(Contact)](mailto:chico.sundermann@tu-braunschweig.de).*
 
-*Want to discuss the design UVL and take part in its collaborative development? Join us in our MODEVAR online workshop at **April 29th**.* Find more information here: https://modevar.github.io/
+*Want to discuss the design UVL and take part in its collaborative development? Join us in our MODEVAR online workshop at **April 29th**.* Find more information at the [MODEVAR webpage](https://modevar.github.io/).
 
 
 
